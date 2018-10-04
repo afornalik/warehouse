@@ -1,10 +1,18 @@
 package store.items.factory.classes.names_enum.brush;
 
-public enum BrushNameVarnished {
+public enum BrushNameVarnished implements BrushName {
 
-    PRO1("PROFI1\""),PRO2("PROFI1,5\""),PRO3("PROFI2\""),PRO4("PROFI2,5\""),PRO5("PROFI3\""),PRO6("PROFI3,5\""),PRO7("PROFI4\"");
+    PRO1(4050),PRO2(4051),PRO3(4052),PRO4(4053),PRO5(4054),PRO6(4055),PRO7(4056);
 
-    BrushNameVarnished(String profi) {
+    private int code;
 
+    BrushNameVarnished(int code) {
+
+        this.code = code;
+
+    }
+
+    public int getCode() {
+        return code;
     }
 }

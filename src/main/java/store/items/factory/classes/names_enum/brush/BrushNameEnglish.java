@@ -1,6 +1,8 @@
 package store.items.factory.classes.names_enum.brush;
 
-public enum BrushNameEnglish {
+
+
+public enum BrushNameEnglish implements BrushName{
 
 
 
@@ -8,13 +10,18 @@ public enum BrushNameEnglish {
 
     private int code;
 
+
      BrushNameEnglish (int code){
-        this.code = code;
+
+         this.code = code;
     }
 
-    int getCode() {
+    @Override
+   public int getCode() {
          return code;
     }
+
+
 
 
 }

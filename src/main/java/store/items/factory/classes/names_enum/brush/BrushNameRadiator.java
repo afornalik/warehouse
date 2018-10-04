@@ -1,6 +1,16 @@
 package store.items.factory.classes.names_enum.brush;
 
-public enum BrushNameRadiator {
+public enum BrushNameRadiator implements BrushName{
 
-    K25,K36,K50,K63
+    K25(4040),K36(4041),K50(4042),K63(4043);
+
+    private int code;
+
+    BrushNameRadiator (int code) {
+        this.code = code;
+    }
+
+    public int getCode() {
+        return code;
+    }
 }

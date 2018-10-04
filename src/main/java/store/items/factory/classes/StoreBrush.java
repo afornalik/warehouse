@@ -4,9 +4,9 @@ import store.items.factory.classes.names_enum.brush.*;
 import store.items.factory.StoreItemsBrush;
 
 
-public class StoreBrush implements StoreItemsBrush {
+public class StoreBrush  {
 
-    private String[] allnames = new String[BrushNameEnglish.values().length+ BrushNameHalfEnglish.values().length+ BrushNameRadiator.values().length+ BrushNameVarnished.values().length+ BrushNameWallpapers.values().length+BrushNameWide.values().length];
+ /*   private String[] allnames = new String[BrushNameEnglish.values().length+ BrushNameHalfEnglish.values().length+ BrushNameRadiator.values().length+ BrushNameVarnished.values().length+ BrushNameWallpapers.values().length+BrushNameWide.values().length];
     private String name;
     private int code,size;
 
@@ -104,7 +104,7 @@ public class StoreBrush implements StoreItemsBrush {
     @Override
     public String[] getBrushNames() {
         return new String[0];
-    }
+    }*/
 }
 
 
