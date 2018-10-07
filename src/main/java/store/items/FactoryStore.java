@@ -4,29 +4,27 @@ package store.items;
 import store.items.factory.StoreItems;
 import store.items.factory.StoreItemsBrush;
 import store.items.factory.StoreItemsRoller;
-import store.items.factory.classes.StoreBrush;
-import store.items.factory.classes.StoreRoller;
+import store.items.factory.classes.StoreAbstractFactory;
+import store.items.factory.classes.StoreBrushFactory;
+import store.items.factory.classes.StoreRollerFactory;
 
 
 public class FactoryStore {
 
     private StoreItems storeitems;
 
-    public  StoreItems getitems(String kind) {
+    public static StoreAbstractFactory getitems(String kind) {
         switch(kind) {
             case"brush" :
-                StoreItemsBrush sib = new StoreBrush();
-                storeitems = sib;
-                break;
+                return new StoreBrushFactory();
+
             case"roller" :
-                StoreItemsRoller sir = new StoreRoller();
-                storeitems = sir;
-                break;
+                return new StoreRollerFactory();
             default:
-                storeitems = null;
+                return null;
 
         }
-        return storeitems;
+
 
 
     }

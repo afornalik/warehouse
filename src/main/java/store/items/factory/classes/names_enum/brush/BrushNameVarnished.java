@@ -2,7 +2,7 @@ package store.items.factory.classes.names_enum.brush;
 
 public enum BrushNameVarnished implements BrushName {
 
-    PRO1(4050),PRO2(4051),PRO3(4052),PRO4(4053),PRO5(4054),PRO6(4055),PRO7(4056);
+    PROFI1(4050),PROFI1_5(4051),PROFI2(4052),PROFI2_5(4053),PROFI3(4054),PROFI3_5(4055),PROFI4(4056);
 
     private int code;
 

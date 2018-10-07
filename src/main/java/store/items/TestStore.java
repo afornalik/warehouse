@@ -2,12 +2,17 @@ package store.items;
 
 import store.items.factory.StoreItems;
 import org.junit.Test;
-import store.items.factory.classes.StoreRoller;
+import store.items.factory.StoreItemsBrush;
+import store.items.factory.classes.StoreAbstractFactory;
+import store.items.factory.classes.StoreBrushFactory;
+import store.items.factory.classes.StoreRollerFactory;
+import store.items.factory.classes.names_enum.brush.BrushNameEnglish;
 
 import static junit.framework.TestCase.assertEquals;
 
 public class TestStore {
 
+/*
 
     @Test
     public void checkRollerName(){
@@ -40,24 +45,23 @@ public class TestStore {
 
     }
 
+*/
 
     public static void main (String[] args) {
 
-        FactoryStore factorystore = new FactoryStore();
+        StoreAbstractFactory saf = FactoryStore.getitems("brush") ;
 
-        StoreItems storeitems = factorystore.getitems("roller");
-        StoreItems storeitems2 = factorystore.getitems("brush");
+        StoreItemsBrush brush1 = saf.getBrushKind("english");
 
-        for (String names :storeitems.getAllNames()) {
-            System.out.print(names+ "  |  ");
-        }
-        System.out.println();
-        for (String names :storeitems2.getAllNames()) {
-            System.out.print(names+ "  |  ");
-
+        for(String brush :brush1.getBrushNames()) {
+            System.out.println(brush);
         }
 
+        StoreItemsBrush brush2 = saf.getBrushKind("varnished");
 
+        for(String brush :brush2.getBrushNames()) {
+            System.out.println(brush);
+        }
 
 
       /*  StoreBrush sb = new StoreBrush();

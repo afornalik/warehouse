@@ -5,9 +5,9 @@ import store.items.factory.StoreItemsRoller;
 
 public abstract class StoreAbstractFactory {
 
-    abstract StoreItemsBrush getBrushKind();
+    public abstract StoreItemsBrush getBrushKind(String kind);
 
-    abstract StoreItemsRoller getRollerKind();
+    public abstract StoreItemsRoller getRollerKind(String kind);
 
 
 

@@ -3,8 +3,11 @@ package store.items.factory;
 public interface StoreItemsRoller extends StoreItems {
 
 
-    public String[] getRollerNames();
+    String getNameByCode(int code);
+
+    int getCodeByName(String name);
 
 
+    String[] getRollerNames();
 
 }

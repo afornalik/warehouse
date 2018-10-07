@@ -2,23 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="001b71da-6a27-416e-b17b-4df515561d3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brush/BrushName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brushclass/BrushClassNameEnglish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brushclass/BrushClassNameHalfEnglish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brushclass/BrushClassNameRadiator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brushclass/BrushClassNameVarnished.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brushclass/BrushClassNameWallpapers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brushclass/BrushClassNameWide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/items/factory/classes/StoreBrushFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/items/factory/classes/name_class/StringFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/items/factory/classes/name_class/rollerclass/RollerClassNameGirpaint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/items/factory/classes/name_class/rollerclass/RollerClassNameVelur.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/items/factory/StoreItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/items/factory/StoreItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/items/factory/StoreItemsBrush.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/items/factory/StoreItemsBrush.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/items/factory/classes/StoreBrush.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/items/factory/classes/StoreBrush.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brush/BrushNameEnglish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brush/BrushNameEnglish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brush/BrushNameHalfEnglish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brush/BrushNameHalfEnglish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brush/BrushNameRadiator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brush/BrushNameRadiator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/store/items/FactoryStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/items/FactoryStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/store/items/TestStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/items/TestStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/store/items/factory/StoreItemsRoller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/items/factory/StoreItemsRoller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/store/items/factory/classes/StoreAbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/items/factory/classes/StoreAbstractFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/store/items/factory/classes/StoreBrush.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/store/items/factory/classes/StoreRoller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/store/items/factory/classes/StoreRollerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/items/factory/classes/StoreRollerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brush/BrushName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brush/BrushName.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brush/BrushNameVarnished.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brush/BrushNameVarnished.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brush/BrushNameWallpapers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brush/BrushNameWallpapers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brush/BrushNameWide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brush/BrushNameWide.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,67 +29,87 @@
     <session id="-567452579">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="70" />
+          <entry key="java" value="112" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="70" />
+          <entry key="JAVA" value="112" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="19" />
-          <entry key="java" value="3091" />
+          <entry key="java" value="5178" />
+          <entry key="txt" value="156" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3091" />
-          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="JAVA" value="5178" />
+          <entry key="PLAIN_TEXT" value="175" />
         </counts>
       </usages-collector>
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="BrushStore" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brushclass/BrushClassNameEnglish.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/name_class/brushclass/BrushClassNameEnglish.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="41" column="5" lean-forward="true" selection-start-line="7" selection-end-line="41" selection-end-column="5" />
+            <state relative-caret-position="82">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#341#342#0" expanded="true" />
-                <element signature="e#368#369#0" expanded="true" />
-                <element signature="e#427#428#0" expanded="true" />
-                <element signature="e#451#452#0" expanded="true" />
-                <element signature="e#860#861#0" expanded="true" />
-                <element signature="e#896#897#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/name_class/brushclass/BrushClassNameWide.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brush/BrushNameEnglish.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/name_class/StringFormat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="49" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="49" />
+            <state relative-caret-position="264">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/name_class/brushclass/BrushClassNameHalfEnglish.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="31" column="89" selection-start-line="31" selection-end-line="32" />
               <folding>
-                <element signature="method#BrushNameEnglish#0;class#BrushNameEnglish#0" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,21 +118,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brush/BrushNameHalfEnglish.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="198">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#309#310#0" expanded="true" />
+                <element signature="e#303#304#0" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brush/BrushNameRadiator.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/name_class/brushclass/BrushClassNameVarnished.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+            <state relative-caret-position="594">
+              <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,83 +143,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brush/BrushNameVarnished.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
+            <state relative-caret-position="154">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brushclass/BrushClassNameWallpapers.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/name_class/rollerclass/RollerClassNameVelur.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
+            <state relative-caret-position="594">
+              <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#286#287#0" expanded="true" />
-                <element signature="e#313#314#0" expanded="true" />
-                <element signature="e#424#425#0" expanded="true" />
-                <element signature="e#448#449#0" expanded="true" />
-                <element signature="e#901#902#0" expanded="true" />
-                <element signature="e#937#938#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brush/BrushNameWallpapers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
-              <folding>
-                <element signature="e#226#227#0" expanded="true" />
-                <element signature="e#257#258#0" expanded="true" />
-                <element signature="e#285#286#0" expanded="true" />
-                <element signature="e#312#313#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brushclass/BrushClassNameWide.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#284#285#0" expanded="true" />
-                <element signature="e#311#312#0" expanded="true" />
-                <element signature="e#422#423#0" expanded="true" />
-                <element signature="e#446#447#0" expanded="true" />
-                <element signature="e#899#900#0" expanded="true" />
-                <element signature="e#935#936#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brush/BrushNameWide.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
-              <folding>
-                <element signature="e#239#240#0" expanded="true" />
-                <element signature="e#269#270#0" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
-                <element signature="e#326#327#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brush/BrushName.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/StoreItemsRoller.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="44">
               <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/store/items/TestStore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1188">
+              <caret line="62" column="32" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -209,9 +184,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Singleton" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -224,6 +199,7 @@
       <find>BrushNameVarnished|BrushNameEnglish</find>
       <find>BrushNameEnglish</find>
       <find>English</find>
+      <find>Girpaint</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -238,29 +214,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/store/items/TestStore.java" />
-        <option value="$PROJECT_DIR$/src/main/java/store/items/StoreBrush.java" />
-        <option value="$PROJECT_DIR$/src/main/java/store/items/brush/BrushNameEnglish.java" />
-        <option value="$PROJECT_DIR$/src/main/java/store/items/brush/BrushNameHalfEnglish.java" />
-        <option value="$PROJECT_DIR$/src/main/java/store/items/brush/BrushNameRadiator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/store/items/brush/BrushNameVarnished.java" />
-        <option value="$PROJECT_DIR$/src/main/java/store/items/brush/BrushNameWallpapers.java" />
-        <option value="$PROJECT_DIR$/src/main/java/store/items/brush/BrushNameWide.java" />
         <option value="$PROJECT_DIR$/src/main/java/store/items/StoreRoller.java" />
         <option value="$PROJECT_DIR$/src/main/java/store/items/roller/RollerName.java" />
         <option value="$PROJECT_DIR$/src/main/java/store/items/interfacePackage/StoreItemsRoller.java" />
-        <option value="$PROJECT_DIR$/src/main/java/store/items/FactoryStore.java" />
         <option value="$PROJECT_DIR$/src/main/java/store/palet/StorePlace.java" />
         <option value="$PROJECT_DIR$/src/main/java/store/palet/ItemStorePlace.java" />
         <option value="$PROJECT_DIR$/src/main/java/store/items/interfacePackage/StoreItems.java" />
         <option value="$PROJECT_DIR$/src/main/java/store/items/interfacePackage/StoreItemsBrush.java" />
         <option value="$PROJECT_DIR$/src/main/java/store/items/interfacePackage/classes/StoreBrush.java" />
         <option value="$PROJECT_DIR$/src/main/java/store/items/factoryinterface/classes/StoreRoller.java" />
-        <option value="$PROJECT_DIR$/src/main/java/store/items/factory/StoreItemsRoller.java" />
         <option value="$PROJECT_DIR$/src/main/java/store/items/factory/classes/StoreItemsFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/store/items/factory/classes/StoreAbstractFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/store/items/factory/classes/StoreRollerFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/store/items/factory/classes/StoreRoller.java" />
         <option value="$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/roller/RollerName.java" />
         <option value="$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/roller/RollerNameGirpaint.java" />
@@ -274,13 +237,34 @@
         <option value="$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brushclass/BrushClassNameVarnished.java" />
         <option value="$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brushclass/BrushClassNameWallpapers.java" />
         <option value="$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brushclass/BrushClassNameWide.java" />
-        <option value="$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brush/BrushName.java" />
         <option value="$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brush/BrushNameEnglish.java" />
         <option value="$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brush/BrushNameHalfEnglish.java" />
         <option value="$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brush/BrushNameRadiator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brush/BrushNameVarnished.java" />
         <option value="$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brush/BrushNameWallpapers.java" />
         <option value="$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brush/BrushNameWide.java" />
+        <option value="$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brush/test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/store/items/factory/StoreItemsRoller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/rollerclass/RollerClassNameVelur.java" />
+        <option value="$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/rollerclass/RollerClassNameGirpaint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/store/items/factory/classes/name_class/BrushClassNameHalfEnglish.java" />
+        <option value="$PROJECT_DIR$/src/main/java/store/items/factory/StoreAbstractFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/store/items/factory/classes/StoreBrushKind.java" />
+        <option value="$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brush/BrushName.java" />
+        <option value="$PROJECT_DIR$/src/main/java/store/items/FactoryStore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/store/items/factory/classes/StoreAbstractFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/store/items/factory/classes/StoreRollerFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/store/items/factory/classes/StoreBrushFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/store/items/factory/classes/name_class/brushclass/BrushClassNameHalfEnglish.java" />
+        <option value="$PROJECT_DIR$/src/main/java/store/items/factory/classes/name_class/brushclass/BrushClassNameRadiator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/store/items/factory/classes/name_class/brushclass/BrushClassNameVarnished.java" />
+        <option value="$PROJECT_DIR$/src/main/java/store/items/factory/classes/name_class/brushclass/BrushClassNameWallpapers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/store/items/factory/classes/name_class/brushclass/BrushClassNameWide.java" />
+        <option value="$PROJECT_DIR$/src/main/java/store/items/factory/classes/name_class/rollerclass/RollerClassNameGirpaint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/store/items/factory/classes/name_class/rollerclass/RollerClassNameVelur.java" />
+        <option value="$PROJECT_DIR$/src/main/java/store/items/TestStore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brush/BrushNameVarnished.java" />
+        <option value="$PROJECT_DIR$/src/main/java/store/items/factory/classes/name_class/brushclass/BrushClassNameEnglish.java" />
+        <option value="$PROJECT_DIR$/src/main/java/store/items/factory/classes/name_class/StringFormat.java" />
       </list>
     </option>
   </component>
@@ -316,6 +300,7 @@
     <panes>
       <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -389,7 +374,7 @@
               <item name="items" type="462c0819:PsiDirectoryNode" />
               <item name="factory" type="462c0819:PsiDirectoryNode" />
               <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="names_enum" type="462c0819:PsiDirectoryNode" />
+              <item name="name_class" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BrushStore" type="b2602c69:ProjectViewProjectNode" />
@@ -401,34 +386,8 @@
               <item name="items" type="462c0819:PsiDirectoryNode" />
               <item name="factory" type="462c0819:PsiDirectoryNode" />
               <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="names_enum" type="462c0819:PsiDirectoryNode" />
-              <item name="brush" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BrushStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BrushStore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="items" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="names_enum" type="462c0819:PsiDirectoryNode" />
+              <item name="name_class" type="462c0819:PsiDirectoryNode" />
               <item name="brushclass" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BrushStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BrushStore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="items" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="names_enum" type="462c0819:PsiDirectoryNode" />
-              <item name="roller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BrushStore" type="b2602c69:ProjectViewProjectNode" />
@@ -447,11 +406,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538694479399" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538778737546" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Kalendarz/src/main/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -474,6 +432,26 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="TestStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="store.items.TestStore" />
+      <module name="BrushStore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="store.items.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestStore" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -485,6 +463,28 @@
       <option name="presentableId" value="Default" />
       <updated>1538314877322</updated>
     </task>
+    <task id="LOCAL-00001" summary="Create BrushClass for every enum class. Some small changes.">
+      <created>1538694550431</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1538694550431</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Fix bug - added incrementation in &quot;for&quot; loop">
+      <created>1538913923358</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1538913923358</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Create enum with brush names.">
+      <created>1538914016334</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1538914016334</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -494,16 +494,16 @@
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Favorites" order="3" sideWeight="0.5008183" side_tool="true" weight="0.35510203" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.3612245" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49918166" visible="true" weight="0.35510203" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="2" visible="true" weight="0.36006546" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.4222586" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -550,6 +550,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create BrushClass for every enum class. Some small changes." />
+    <MESSAGE value="Fix bug - added incrementation in &quot;for&quot; loop" />
+    <MESSAGE value="Create enum with brush names." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create enum with brush names." />
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
@@ -576,34 +582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/FactoryStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/TestStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/StoreRollerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/StoreRoller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1342">
-          <caret line="74" column="5" lean-forward="true" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-990" />
@@ -611,54 +589,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/roller/RollerName.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/roller/jhh.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/StoreItemsRoller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/roller/RollerNameGirpaint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/roller/RollerNameVelur.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/StoreAbstractFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/StoreBrush.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/StoreItemsBrush.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/StoreItems.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -666,127 +596,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brushclass/BrushClassNameHalfEnglish.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#860#861#0" expanded="true" />
-            <element signature="e#896#897#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brushclass/BrushClassNameRadiator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="31" column="65" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#896#897#0" expanded="true" />
-            <element signature="e#932#933#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brushclass/BrushClassNameVarnished.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="31" column="97" lean-forward="true" selection-start-line="31" selection-start-column="97" selection-end-line="31" selection-end-column="97" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brushclass/BrushClassNameWallpapers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#901#902#0" expanded="true" />
-            <element signature="e#937#938#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brushclass/BrushClassNameEnglish.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="7" selection-end-line="41" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#860#861#0" expanded="true" />
-            <element signature="e#896#897#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brushclass/BrushClassNameWide.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#899#900#0" expanded="true" />
-            <element signature="e#935#936#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brush/BrushName.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brush/test.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brush/BrushNameWallpapers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brush/BrushNameWide.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/roller/RollerNameGirpaint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/roller/RollerNameVelur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/StoreBrush.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/StoreRoller.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brush/BrushNameEnglish.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="49" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="49" />
-          <folding>
-            <element signature="method#BrushNameEnglish#0;class#BrushNameEnglish#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brush/BrushNameHalfEnglish.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="220">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -797,35 +641,180 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brush/BrushNameVarnished.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/FactoryStore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
+        <state relative-caret-position="308">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brush/BrushNameWallpapers.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brush/BrushName.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/StoreBrushKind.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/StoreAbstractFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brush/BrushNameWide.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/StoreRollerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/StoreBrushFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1101#1102#0" expanded="true" />
+            <element signature="e#1128#1129#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/name_class/brushclass/BrushClassNameRadiator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/name_class/brushclass/BrushClassNameWallpapers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/name_class/rollerclass/RollerClassNameGirpaint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/StoreItemsBrush.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/name_class/StringFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/name_class/brushclass/BrushClassNameHalfEnglish.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="31" column="89" selection-start-line="31" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brush/BrushNameHalfEnglish.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/name_class/brushclass/BrushClassNameVarnished.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/names_enum/brush/BrushNameVarnished.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/name_class/rollerclass/RollerClassNameVelur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/StoreItemsRoller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/TestStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="62" column="32" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/name_class/brushclass/BrushClassNameEnglish.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/store/items/factory/classes/name_class/brushclass/BrushClassNameWide.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
