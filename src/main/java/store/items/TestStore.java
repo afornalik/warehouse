@@ -1,12 +1,7 @@
 package store.items;
 
-import store.items.factory.StoreItems;
-import org.junit.Test;
-import store.items.factory.StoreItemsBrush;
+import store.items.factory.store_interface.StoreItemsBrush;
 import store.items.factory.classes.StoreAbstractFactory;
-import store.items.factory.classes.StoreBrushFactory;
-import store.items.factory.classes.StoreRollerFactory;
-import store.items.factory.classes.names_enum.brush.BrushNameEnglish;
 
 import static junit.framework.TestCase.assertEquals;
 

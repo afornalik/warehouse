@@ -1,7 +1,7 @@
 package store.items.factory.classes;
 
-import store.items.factory.StoreItemsBrush;
-import store.items.factory.StoreItemsRoller;
+import store.items.factory.store_interface.StoreItemsBrush;
+import store.items.factory.store_interface.StoreItemsRoller;
 
 public abstract class StoreAbstractFactory {
 

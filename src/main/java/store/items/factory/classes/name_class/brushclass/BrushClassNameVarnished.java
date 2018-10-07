@@ -1,7 +1,7 @@
 package store.items.factory.classes.name_class.brushclass;
 
-import store.items.factory.StoreItemsBrush;
-import store.items.factory.classes.names_enum.brush.BrushNameVarnished;
+import store.items.factory.store_interface.StoreItemsBrush;
+import store.items.factory.classes.name_enum.brush.BrushNameVarnished;
 
 public class BrushClassNameVarnished implements StoreItemsBrush {
 

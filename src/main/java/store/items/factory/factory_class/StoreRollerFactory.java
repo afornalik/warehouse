@@ -1,7 +1,8 @@
-package store.items.factory.classes;
+package store.items.factory.factory_class;
 
-import store.items.factory.StoreItemsBrush;
-import store.items.factory.StoreItemsRoller;
+import store.items.factory.store_interface.StoreItemsBrush;
+import store.items.factory.store_interface.StoreItemsRoller;
+import store.items.factory.classes.StoreAbstractFactory;
 import store.items.factory.classes.name_class.rollerclass.RollerClassNameGirpaint;
 import store.items.factory.classes.name_class.rollerclass.RollerClassNameVelur;
 

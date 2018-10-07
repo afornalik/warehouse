@@ -1,8 +1,8 @@
 package store.items.factory.classes.name_class.brushclass;
 
-import store.items.factory.StoreItemsBrush;
+import store.items.factory.store_interface.StoreItemsBrush;
 import store.items.factory.classes.name_class.StringFormat;
-import store.items.factory.classes.names_enum.brush.BrushNameEnglish;
+import store.items.factory.classes.name_enum.brush.BrushNameEnglish;
 
 public class BrushClassNameEnglish implements StoreItemsBrush {
 

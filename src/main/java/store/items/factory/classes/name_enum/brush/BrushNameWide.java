@@ -1,4 +1,4 @@
-package store.items.factory.classes.names_enum.brush;
+package store.items.factory.classes.name_enum.brush;
 
 public enum BrushNameWide implements BrushName {
 

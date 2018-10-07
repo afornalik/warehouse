@@ -2,11 +2,9 @@ package store.items;
 
 
 import store.items.factory.StoreItems;
-import store.items.factory.StoreItemsBrush;
-import store.items.factory.StoreItemsRoller;
 import store.items.factory.classes.StoreAbstractFactory;
-import store.items.factory.classes.StoreBrushFactory;
-import store.items.factory.classes.StoreRollerFactory;
+import store.items.factory.factory_class.StoreBrushFactory;
+import store.items.factory.factory_class.StoreRollerFactory;
 
 
 public class FactoryStore {

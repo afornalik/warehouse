@@ -1,4 +1,4 @@
-package store.items.factory.classes.names_enum.roller;
+package store.items.factory.classes.name_enum.roller;
 
 public enum RollerNameVelur {
 

@@ -1,6 +1,7 @@
-package store.items.factory;
+package store.items.factory.store_interface;
 
 
+import store.items.factory.StoreItems;
 
 public interface StoreItemsBrush extends StoreItems {
 

@@ -1,7 +1,7 @@
 package store.items.factory.classes.name_class.brushclass;
 
-import store.items.factory.StoreItemsBrush;
-import store.items.factory.classes.names_enum.brush.BrushNameRadiator;
+import store.items.factory.store_interface.StoreItemsBrush;
+import store.items.factory.classes.name_enum.brush.BrushNameRadiator;
 
 public class BrushClassNameRadiator implements StoreItemsBrush {
 

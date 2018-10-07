@@ -1,7 +1,7 @@
 package store.items.factory.classes.name_class.rollerclass;
 
-import store.items.factory.StoreItemsRoller;
-import store.items.factory.classes.names_enum.roller.RollerNameGirpaint;
+import store.items.factory.store_interface.StoreItemsRoller;
+import store.items.factory.classes.name_enum.roller.RollerNameGirpaint;
 
 public class RollerClassNameGirpaint implements StoreItemsRoller {
 
