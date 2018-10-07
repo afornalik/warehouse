@@ -1,10 +1,10 @@
-package store.items.factory.classes.names_enum.brushclass;
+package store.items.factory.classes.name_class.brushclass;
 
 import store.items.factory.StoreItemsBrush;
-import store.items.factory.classes.names_enum.brush.BrushNameRadiator;
 import store.items.factory.classes.names_enum.brush.BrushNameVarnished;
 
-public class BrushClassNameRadiator implements StoreItemsBrush {
+public class BrushClassNameVarnished implements StoreItemsBrush {
+
 
     /* Return Name if you know catalogue number */
 
@@ -25,11 +25,12 @@ public class BrushClassNameRadiator implements StoreItemsBrush {
     @Override
     public String[] getBrushNames() {
 
-        String[] brushNames = new String[BrushNameRadiator.values().length];
+        String[] brushNames = new String[BrushNameVarnished.values().length];
         int i = 0;
 
-        for (BrushNameRadiator bne : BrushNameRadiator.values()) {
+        for (BrushNameVarnished bne : BrushNameVarnished.values()) {
             brushNames[i] = " Name  : " +bne.toString()+"  Catalogue number  : " + bne.getCode();
+            i++;
         }
 
         return brushNames;

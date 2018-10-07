@@ -1,6 +1,7 @@
-package store.items.factory.classes.names_enum.brushclass;
+package store.items.factory.classes.name_class.brushclass;
 
 import store.items.factory.StoreItemsBrush;
+import store.items.factory.classes.name_class.StringFormat;
 import store.items.factory.classes.names_enum.brush.BrushNameEnglish;
 
 public class BrushClassNameEnglish implements StoreItemsBrush {
@@ -29,7 +30,8 @@ public class BrushClassNameEnglish implements StoreItemsBrush {
         int i = 0;
 
         for (BrushNameEnglish bne : BrushNameEnglish.values()) {
-            brushNames[i] = " Name  : " +bne.toString()+"  Catalogue number  : " + bne.getCode();
+            brushNames[i] = StringFormat.writeDescription("English",bne.name(),bne.getCode());
+            i++;
         }
 
         return brushNames;

@@ -1,9 +1,9 @@
-package store.items.factory.classes.names_enum.brushclass;
+package store.items.factory.classes.name_class.brushclass;
 
 import store.items.factory.StoreItemsBrush;
-import store.items.factory.classes.names_enum.brush.BrushNameWide;
+import store.items.factory.classes.names_enum.brush.BrushNameHalfEnglish;
 
-public class BrushClassNameWide implements StoreItemsBrush {
+public class BrushClassNameHalfEnglish implements StoreItemsBrush {
 
 
     /* Return Name if you know catalogue number */
@@ -25,11 +25,12 @@ public class BrushClassNameWide implements StoreItemsBrush {
     @Override
     public String[] getBrushNames() {
 
-        String[] brushNames = new String[BrushNameWide.values().length];
+        String[] brushNames = new String[BrushNameHalfEnglish.values().length];
         int i = 0;
 
-        for (BrushNameWide bne : BrushNameWide.values()) {
+        for (BrushNameHalfEnglish bne : BrushNameHalfEnglish.values()) {
             brushNames[i] = " Name  : " +bne.toString()+"  Catalogue number  : " + bne.getCode();
+            i++;
         }
 
         return brushNames;
